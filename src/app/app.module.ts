@@ -3,16 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import {enableProdMode} from '@angular/core';
+import { PageComponent } from './page/page.component';
+import { NftmainpageComponent } from './nftmainpage/nftmainpage.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PageComponent,
+    NftmainpageComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent,]
 })
 export class AppModule { }
