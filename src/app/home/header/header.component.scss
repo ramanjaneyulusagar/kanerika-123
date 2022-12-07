@@ -1,0 +1,48 @@
+#list{
+  li{
+    padding-left: 60px;
+  }
+
+}
+.nav-item{
+  padding-left: 25px;
+}
+#u {
+  width: 100%;
+  height: 100%;
+  animation: u 1s infinite;
+}
+@keyframes u {
+  50% {
+    color: rgb(246, 59, 7);
+  }
+  100% {
+    color: #bcb9a7;
+  }
+}
+#r {
+  width: 100%;
+  height: 100%;
+  animation: r 2s infinite;
+}
+@keyframes r {
+  50% {
+    color: rgb(130, 156, 79);
+  }
+  100% {
+    color: #c7ce01;
+  }
+}
+#s{
+  width: 100%;
+  height: 100%;
+  animation: s 3s infinite;
+}
+@keyframes s {
+  50% {
+    color: rgb(85, 129, 224);
+  }
+  100% {
+    color: #ee86c3;
+  }
+}
