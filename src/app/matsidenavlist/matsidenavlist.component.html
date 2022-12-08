@@ -1,0 +1,10 @@
+
+<mat-drawer-container class="example-container" autosize >
+  <button type="button" mat-button (click)="drawer.toggle()">
+    <mat-icon>more_vert</mat-icon>
+  </button>
+  <div class="example-sidenav-content"></div>
+  <mat-drawer #drawer class="example-sidenav" mode="over" position="end" >
+    <p >Auto-resizing sidenav</p>
+  </mat-drawer>
+</mat-drawer-container>

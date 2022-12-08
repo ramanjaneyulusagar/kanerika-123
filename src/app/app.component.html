@@ -1,6 +1,28 @@
+<!-- <i class="fa-regular fa-record-vinyl"></i> -->
+<!-- <p-panelMenu [model]="items"></p-panelMenu> -->
+<!-- <i class=" pi pi-check" style="font-size:100px;color: aliceblue;"></i> -->
+<!-- <mat-sidenav-container>
+  <mat-sidenav #sidenav>
+    <app-matsidenavlist (closeSideNav)="sidenav.close()"></app-matsidenavlist>
+  </mat-sidenav>
 
+  <mat-sidenav-content>
+    <app-matsidenav (SideNavToggle)="sidenav.toggle()"></app-matsidenav>
+
+
+  </mat-sidenav-content>
+</mat-sidenav-container> -->
 <router-outlet></router-outlet>
-<!--
-              "node_modules/primeicons/primeicons.css",
-              "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
-              "node_modules/primeng/resources/primeng.min.css" -->
+<section style="width:100%;height:100%;display: flex;overflow: hidden;">
+  <div style="width:50%;height:100%;border: none;overflow: hidden;">
+
+    <app-matsidenav></app-matsidenav>
+  </div>
+  <div style="width: 50%;height:100%;">
+
+    <app-matsidenavlist></app-matsidenavlist>
+  </div>
+</section>
+
+
+

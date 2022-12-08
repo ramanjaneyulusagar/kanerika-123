@@ -1,0 +1,13 @@
+#vinari {
+
+  animation: s 3s infinite;
+}
+@keyframes s {
+  50% {
+    color: rgb(9, 83, 243);
+  }
+
+  100% {
+    color: rgb(130, 7, 246);
+  }
+}
