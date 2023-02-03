@@ -3,10 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { MenuModule } from 'primeng/menu';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { enableProdMode } from '@angular/core';
 import { HeaderComponent } from './home/header/header.component';
 import { AccordionModule } from 'primeng/accordion'; //accordion and accordion tab
-import { MenuItem } from 'primeng/api';
 import { PanelMenuModule } from 'primeng/panelmenu';
 import {
   FontAwesomeModule,
@@ -28,6 +26,8 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatsidenavlistComponent } from './matsidenavlist/matsidenavlist.component';
+import { LinechartComponent } from './echarts/linechart/linechart.component';
+// import { WebixModule } from "webix";
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,6 +35,7 @@ import { MatsidenavlistComponent } from './matsidenavlist/matsidenavlist.compone
     FontawesomeiconsComponent,
     MatsidenavComponent,
     MatsidenavlistComponent,
+    LinechartComponent,
   ],
   imports: [
     BrowserModule,
